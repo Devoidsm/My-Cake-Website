@@ -1,0 +1,83 @@
+<!doctype html> 
+
+<html>
+
+<head>
+     <!--Css Link-->
+     <link rel="stylesheet" href = "../Style/Style.css" type = "text/css"><!--Link to css/scss-->
+    <title>My Cake contact Website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--icons Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!--main-->
+    <section class="main">
+        <!--box 1-->
+        <div class="main-box">
+        <!--NavBar-->
+        <nav>
+          <ul>
+            <li><a href="#" class="logo"></a></li>
+            <li><i class='bx bxs-cake' ></i></li>
+          </ul>   
+        </nav>
+        <!--main content-->
+        <div class="main-content">
+        <!--main text-->
+        <div class="main-text">
+           <!--form for contact me page-->
+            <div> 
+            <h2>How would you like to Contact Me</h2>
+            <form>     
+              <select id="contact-method" >
+                <option value="null"></option>
+                <option value="Number">Cell phone Number</option>
+                <option value="Email">Email adress</option>
+              </select>  
+             <button id="submit-contact" class = "btn2">Submit</button>   
+            <textarea id="contact-out"></textarea>
+                <!--verytastyCake@gmail.com-->
+                <!--081 568 9842-->
+                
+            </form>
+               <p>verytastyCake@gmail.com</p> 
+               <p>081 568 9842</p>
+            <p id="quote">The more you know, the more you can create. There is no end to imagination in the kitchen - Julia Child</p>
+               
+               
+                <!--When the Change Button is clicked it will highlight and change the background color of the quote paragraph-->
+                <a href="#" class="btn2" id="submitBtn">Quote Change</a>
+                <a href="../index.html" class="btn1">Back to Home</a>    
+            
+            </div>
+            <!--form for comments--> 
+            <div class="Comment-box">
+                    <h3>Leave a comment</h3>
+                    <form>
+                        <textarea placeholder="Enter a comment"></textarea>
+                        <div class="btn">
+                            <input type="submit" value="comment" class="btn2" onclick="preventDefault()">
+                            <button class="btn1">Cancel</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        <!--Images-->
+                <div class="Contact-img">
+                    <img src="../Images/contact.png">  
+                </div>
+               
+                
+        
+            </div>
+        </div>
+    </section>
+    <!--circles-->
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+<script type='text/javascript' src="../Script/script.js"></script>  
+</body>

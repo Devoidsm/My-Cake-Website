@@ -1,0 +1,75 @@
+<!-- This is a comment in HTML -->
+<!-- Don't worry too much about what's in this file for now, the only this you need to look at is the <script> tag -->
+<!doctype html> 
+
+<html>
+
+<head>
+     <!--Css Link-->
+     <link rel="stylesheet" href = "Style/Style.css" type = "text/css"><!--Link to css/scss-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <title>My Cake Website</title>
+    <!--icons Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!--main-->
+    <section class="main">
+        <!--box 1-->
+        <div class="main-box">
+        <!--NavBar-->
+        <nav>
+          <!--drop down menu-->
+          <div id="accordion_area" class="logo">
+            <div class="card">
+                <h3 class="card-title">Cake Types</h3>
+                <div class="card-body">
+                    <ul>
+                        <li>Winter Cakes</li>
+                        <li>Summer Cakes</li>
+                        <li>Desserts Cakes</li>
+                        
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        </nav>
+        <!--main content-->
+        <div class="main-content">
+        <!--main text-->
+        <div class="main-text">
+                <h1>Delicous <br>Cake</br></h1>
+                <h2>Very Tasty</h2>
+                <p>Please look at the cakes we have to offer, you will find one that you love. We have a range from <br>chocolate</br> or <br>vanilla</br></p>
+                <!--Buttons-->
+                <a href="otherpages/Contact.html" class="btn1">Contact Me</a>
+                <a href="otherpages/Recipe.html" class="btn2">Learn a Recipe</a>
+                <a href="otherpages/saveForLater.html" class="btn2">Saved Recipes</a>
+            </div> 
+        <!--Images-->
+                <div class="main-img">
+                    <img src="Images/MainCake.jpg" id="mainCake">  
+                </div>
+                
+                <div class="side-img">
+                    <!--When selecting the first image it triggers a jquery to hide the image-->
+                    <img src="Images/Vanilla.png" alt="" id="First-hide">
+                   <img src="Images/Chocolate.jpg" alt="" id="2nd-hide">
+                   <img src="Images/Strawberry.jpg" alt="" id="3rd-hide"> 
+                   <img src="Images/Birthday.jpg" alt="" id="4th-hide"> 
+                   <button id="show-img" class="btn3">Show hidden Images</button>
+                   
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--circles-->
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+ <script type='text/javascript' src="Script/script.js"></script>    
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+<!doctype html> 
+<!--Css Link-->
+<html>
+
+<head>
+     <!--Css Link-->
+     <link rel="stylesheet" href = "../Style/Style.css" type = "text/css"><!--Link to css/scss-->
+    <title>My Cake Recipe Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--icons Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!--main-->
+    <section class="main">
+        <!--box 1-->
+        <div class="main-box">
+        <!--NavBar-->
+        <nav>
+          <ul>
+            <li><a href="#" class="logo"></a></li>
+            <li><i class='bx bxs-cake' ></i></li>
+          </ul>   
+        </nav>
+        <!--main content-->
+        <div class="main-content">
+        <!--main text-->
+        <div class="main-text"> 
+            <!--Buttons-->
+                <a href="../index.html" class="btn3" id="recipe-Home">Back to Home</a>
+                
+                <h1>Recipes:</h1>
+                <!--Chocolate -->
+                <div id="Chocolate-recipe">
+                    <h2>Chocolate</h2>
+                    <table class="tblRecipe">
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Amounts</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row"> white sugar </td>
+                                <td>2 cups</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> all-purpose flour </td>
+                                <td>1 ¾ cups</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> unsweetened cocoa powder</td>
+                                <td>  ¾ cup </td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> baking powder </td>
+                                <td>1 ½ teaspoons</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> baking soda </td>
+                                <td>1 ½ teaspoons</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> salt </td>
+                                <td>1 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> eggs </td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> milk </td>
+                                <td>1 cups</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> vegetable oil </td>
+                                <td>½ cup</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> vanilla extract </td>
+                                <td>2 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td scope="row"> boiling water </td>
+                                <td>1 cups</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <p>Step 1: Stir or whisk together sugar, flour, cocoa, baking powder, baking soda, and salt until evenly combined.</p>
+                    <p>Step 2: Add the eggs, milk, oil, and vanilla. Mix on medium speed for about two minutes. Stir in boiling water. Don't worry if the batter seems a little thin, as reviewers say that's perfectly normal. </p>  
+                    <p>Step 3: Pour the cake batter into prepared pans. Bake for about half an hour, until a toothpick comes out clean when inserted in the middle. Let cool and top with your favorite frosting.</p>
+                    </div>
+                    <!--Save Chocolate Button-->
+                <button id="recipeSave1" class="btn3">Save for Later</button>
+                
+                <!--Vanilla -->
+                <div id="Vanilla-recipe">
+                <h2>Vanilla</h2>
+                <table class="tblRecipe">
+                    <thead>
+                        <tr>
+                            <th>Ingredients</th>
+                            <th>Amounts</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row"> white sugar </td>
+                            <td>1 cups</td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> all-purpose flour </td>
+                            <td>2 ⅔ cups</td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> cooking spray</td>
+                            <td>  single use </td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> baking powder </td>
+                            <td>1 tablespoon </td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> salt </td>
+                            <td>2 pinches </td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> eggs </td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> milk </td>
+                            <td>¾  cups</td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> vegetable oil </td>
+                            <td>¾  cup</td>
+                        </tr>
+                        <tr>
+                            <td scope="row"> vanilla extract </td>
+                            <td>1 tablespoon</td>
+                        </tr>
+                        </tbody>
+                </table>
+                <p>Step 1: Preheat the oven to 350 degrees F (175 degrees C). Grease a 9-inch cake tin with cooking spray and line with parchment paper.</p>
+                <p>Step 2: Mix flour, sugar, baking powder, vanilla extract, and salt together in a large bowl. Add eggs, milk, and vegetable oil; mix by hand or beat with an electric mixer on low speed until smooth. Add more flour if batter is too runny. Pour into the prepared pan.</p>   
+                <p>Step 3: Bake in the preheated oven until a toothpick inserted into the center of the cake comes out clean, about 1 hour. Cool on a wire rack for 5 minutes. Run a table knife around the edges to loosen. Invert cake carefully onto a cooling rack. Let cool completely.</p>
+                
+               </div>
+               <!--Save Vanilla Button-->
+                <button id="recipeSave2" class="btn3">Save for Later</button>
+                
+                <!--form used to like a the cake -->
+                <div class="Comment-box">
+                    <form>
+                        <h3>Which Cake do u like more</h3>
+                        <select id="select">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+
+                        <input type="button" value="Submit" id="bestCake" class="btn3" onclick="preventDefault()">
+                    </form>    
+                </div>
+             
+               
+            </div> 
+        
+                
+        
+            </div>
+        </div>
+    </section>
+    <!--circles-->
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+    <script type='text/javascript' src="../Script/script.js"></script>  
+</body>
